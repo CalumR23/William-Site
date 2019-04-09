@@ -17,6 +17,7 @@ html, body {
     border-radius: 50%;
     width: 250x;
     height: 250px;
+    margin: 5%;
   }
 .main-content{
     text-align: center;
@@ -27,8 +28,8 @@ html, body {
     width: 500px;
 }
 .projectimg{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 }
 .col-md-4:hover .overlay {
     opacity: 1;
@@ -58,6 +59,9 @@ html, body {
   }
   #portfolio{
     text-align: center;
+  }
+  #list{
+      text-align: left;
   }
   /* For mobile phones: */
 [class*="col-"] {

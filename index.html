@@ -8,6 +8,8 @@
     <title>William Huang | Engineer</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="assests/css/skeleton.css">
     <link rel="stylesheet" href="assests/css/style.css">
 </head>
@@ -21,6 +23,7 @@
     <hr>
     <section class="row">
         <summary class="nine columns">
+            <h3><i class="fa fa-user" aria-hidden="true"></i>About Me </h3>
             <p class="info">I am a student/developer interested in entrepreneurship and data science (machine-learning
                 more specifically), studying Computer Science and Finance at New York University. In my spare time, I
                 enjoy traveling, eating, and exploring. I love art (post-Impressionist is my favorite), touring museums,
@@ -31,9 +34,9 @@
 
         <nav class="three columns">
 
-            <button onclick="window.open('https://github.com/williamhuang0623');"> Github</button>
-            <button onclick="window.open('https://www.linkedin.com/in/williamhuang17/');"> LinkedIn</button>
-            <button onclick="window.location='#contact-info'"> Contact</button>
+            <button class="fa fa-github icon" onclick="window.open('https://github.com/williamhuang0623');"> Github</button>
+            <button  class="fa fa-linkedin"  onclick="window.open('https://www.linkedin.com/in/williamhuang17/');"> LinkedIn</button>
+            <button class="fa fa-envelope" onclick="window.location='#contact-info'"> Contact</button>
 
 
 
@@ -42,7 +45,7 @@
 
     <hr>
     <div id="portfolio">
-        <h3>Portfolio</h3>
+        <h3> <i class="fa fa-briefcase" aria-hidden="true"></i>Portfolio</h3>
         <div class="container-fluid" id="gallery" name="gallery">
             <div class="row row-10 row-horizontal-10">
                 <div class="col-md-4 col-xl-3">
@@ -133,30 +136,33 @@
     <hr>
     <div id="project-div">
         <h3>Experience</h3>
-        <h5><b>Web</b></h5>
-        <ul>
-            <li>Project#1</li>
-            <li>Project#2</li>
-            <li>Project#3</li>
-        </ul>
-        <h5><b>Apps</b></h5>
-        <ul>
-            <li>Project#1</li>
-            <li>Project#2</li>
-            <li>Project#3</li>
-        </ul>
+        <div id="list">
+            <h5><i class="fa fa-globe" aria-hidden="true"></i><b>Web</b></h5>
+            <ul>
+                <li>Project#1</li>
+                <li>Project#2</li>
+                <li>Project#3</li>
+            </ul>
+            <h5><i class="fa fa-tasks" aria-hidden="true"></i><b>Apps</b></h5>
+            <ul>
+                <li>Project#1</li>
+                <li>Project#2</li>
+                <li>Project#3</li>
+            </ul>
+        </div>
     </div>
     <hr>
     <div id="contact-info">
-			<footer class="row">
-           
-                    <section class="six columns info">
-                        <h3><b>Contact me</b></h3>
-                            <span><b><i class="fa fa-envelope"></i> E-Mail:</b> <a href="mailto:williamhuang0623@gmail.com">williamhuang0623@gmail.com</a></span><br>
-                            <span class="pull-right1"><b><i class="fa fa-phone"></i> Phone:</b>(XXX)-XXX-XXXX </span><br>
-                    </section>
-    
-    
+        <footer class="row">
+
+            <section class="six columns info">
+                <h3><b>Contact me</b></h3>
+                <span><b><i class="fa fa-envelope"></i> E-Mail:</b> <a
+                        href="mailto:williamhuang0623@gmail.com">williamhuang0623@gmail.com</a></span><br>
+                <span class="pull-right1"><b><i class="fa fa-phone"></i> Phone:</b>(XXX)-XXX-XXXX </span><br>
+            </section>
+
+
             <section class="six columns contact">
                 <h3><i class="fa fa-envelope"></i><b> Contact</b></h3>
                 <form action="https://formspree.io/williamhuang0623@gmail.com" method="POST">
@@ -172,8 +178,8 @@
                     <input class="button" type="submit" value="Send">
                     <input type="hidden" name="_subject" value="New message!" />
                 </form>
-        </section>
-    </footer>
+            </section>
+        </footer>
     </div>
 
 
